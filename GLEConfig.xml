@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2290" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Fortunes Of Rock WLA" version="1.0.6" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="10,20,50,100,200,300,500,600,1000,1200,2000,2500,5000,7500,10000,15000,20000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,en_NZ,de_BE,fr_BE,nl_BE,nb_NO,pl_PL,tr_TR"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N">   
+
+            <!-- ZER 50c, $1, $2, $3, $5, $10 & $20 -->
+            <!--<paymodel modelid="300-2290-099"  revealId="2290" revealVersionId="2290"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Fortunes Of Rock WLA : 300-2290-099"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2290-099" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2290-099" clienttype="HTML" configcode="PHLP"/>-->
+
+            <!-- KY 10c, 20c, 50c, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2290-001"  revealId="4778" revealVersionId="4766"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Fortunes Of Rock WLA : 300-2290-001"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2290-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2290-001" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- GA 50c, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2290-002"  revealId="4778" revealVersionId="4766"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Fortunes Of Rock WLA : 300-2290-002"
+                      hibethold="22.00" lobethold="22.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2290-002" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2290-002" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- RI 50c, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2290-003"  revealId="4778" revealVersionId="4766"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Fortunes Of Rock WLA : 300-2290-003"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2290-003" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2290-003" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- PLT 1zl, 2zl, 5zl, 10zl, 20zl & 30zl -->
+            <paymodel modelid="300-2290-004"  revealId="4778" revealVersionId="4766"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Fortunes Of Rock WLA : 300-2290-004"
+                      hibethold="22.00" lobethold="22.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2290-004" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2290-004" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- TUR 70% ₺6, ₺12, ₺25, ₺50, ₺75, ₺100, ₺150 & ₺200 -->
+            <paymodel modelid="300-2290-005"  revealId="4778" revealVersionId="4766"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Fortunes Of Rock WLA : 300-2290-005"
+                      hibethold="30.00" lobethold="30.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2290-005" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2290-005" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- TUR 65% ₺6, ₺12, ₺25, ₺50, ₺75, ₺100, ₺150 & ₺200 -->
+            <paymodel modelid="300-2290-006"  revealId="4778" revealVersionId="4766"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Fortunes Of Rock WLA : 300-2290-006"
+                      hibethold="35.00" lobethold="35.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2290-006" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2290-006" clienttype="HTML" configcode="PHLP"/>
+
+            <denom currencycode="EUR" amount="0.01"/>
+            <denom currencycode="FUN" amount="0.01"/>
+            <denom currencycode="NOK" amount="0.01"/>
+            <denom currencycode="NZD" amount="0.01,0.02"/>
+            <denom currencycode="PLN" amount="0.01,0.05"/>
+            <denom currencycode="TRY" amount="0.01"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
